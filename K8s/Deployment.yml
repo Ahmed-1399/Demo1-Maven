@@ -1,6 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  # NameSpace
+  namespace: comningsoon
   name: deploy-name
 spec:
   replicas: 3
@@ -14,6 +16,8 @@ spec:
     spec:
       containers:
       - name: nginx-name
-        image: ahmed1399/testing:81
+        image: ahmed1399/testing:latest
+        imagePullPolicy: Always
+
         ports:
         - containerPort: 8090
