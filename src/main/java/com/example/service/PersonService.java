@@ -47,12 +47,12 @@ public class PersonService {
 		p.setLastName("Abd Elhamid");
 		persons.add(p);
 
-		p = new Person();
-		p.setId("6");
-		p.setAge(27);
-		p.setFirstName("Ali");
-		p.setLastName("Emad");
-		persons.add(p);
+		// p = new Person();
+		// p.setId("6");
+		// p.setAge(27);
+		// p.setFirstName("Ali");
+		// p.setLastName("Emad");
+		// persons.add(p);
 		
 	}
 	public Person getPerson(String id) {
