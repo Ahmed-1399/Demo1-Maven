@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx-name
-        image: ahmed1399/testing:latest
+        image: ahmed1399/testing:83
         imagePullPolicy: Always
 
         ports:
