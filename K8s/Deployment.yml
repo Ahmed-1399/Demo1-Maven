@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - name: nginx-name
-        image: ahmed1399/testing:83
         imagePullPolicy: Always
+        image: ahmed1399/testing:latest
 
         ports:
         - containerPort: 8090
