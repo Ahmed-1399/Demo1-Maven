@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: nginx-name
-        image: ahmed1399/sample
+        image: ahmed1399/testing:lts
         ports:
         - containerPort: 80
