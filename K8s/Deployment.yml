@@ -6,6 +6,8 @@ metadata:
   name: deploy-name
 spec:
   replicas: 3
+  strategy:
+    type: Recreate
   selector:
     matchLabels:
       app: test
