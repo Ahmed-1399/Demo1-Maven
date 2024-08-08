@@ -26,47 +26,6 @@ public class PersonService {
 		p.setLastName("Shalaby");
 		persons.add(p);
 		
-		p = new Person();
-		p.setId("3");
-		p.setAge(25);
-		p.setFirstName("Basem");
-		p.setLastName("Salama");
-		persons.add(p);
-		
-		p = new Person();
-		p.setId("4");
-		p.setAge(25);
-		p.setFirstName("AbdulHalim");
-		p.setLastName("Mahmoud");
-		persons.add(p);
-
-		p = new Person();
-		p.setId("5");
-		p.setAge(26);
-		p.setFirstName("Ahmed");
-		p.setLastName("Abd Elhamid");
-		persons.add(p);
-
-		p = new Person();
-		p.setId("6");
-		p.setAge(27);
-		p.setFirstName("Ali");
-		p.setLastName("Emad");
-		persons.add(p);
-
-		p = new Person();
-		p.setId("7");
-		p.setAge(28);
-		p.setFirstName("Medo");
-		p.setLastName("Mohamed");
-		persons.add(p);
-
-		p = new Person();
-		p.setId("8");
-		p.setAge(29);
-		p.setFirstName("Osama");
-		p.setLastName("Gamal");
-		persons.add(p);
 	}
 	public Person getPerson(String id) {
 		for(Person person:persons) {
